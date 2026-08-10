@@ -1,0 +1,208 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"LookUp": {
+			"frames": [[0, 32, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Crouch": {
+			"frames": [[0, 64, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"CrouchFall": {
+			"frames": [[0, 96, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Move": {
+			"frames": [
+				[0, 128, 32, 32],
+				[32, 128, 32, 32],
+                                [64, 128, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Fall": {
+			"frames": [[0, 160, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Walk": {
+			"frames": [
+				[0, 192, 32, 32],
+				[32, 192, 32, 32],
+				[64, 192, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Run": {
+			"frames": [
+				[0, 224, 32, 32],
+				[32, 224, 32, 32],
+				[64, 224, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Skid": {
+			"frames": [[0, 256, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Jump": {
+			"frames": [[0, 288, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"JumpFall": {
+			"frames": [[0, 320, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"WaterIdle": {
+			"frames": [
+				[0, 352, 32, 32],
+				[32, 352, 32, 32],
+			],
+			"speed": 2.0,
+			"loop": true
+		},
+		"WaterMove": {
+			"frames": [
+				[0, 384, 32, 32],
+				[32, 384, 32, 32],
+				[64, 384, 32, 32],
+				[96, 384, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"SwimIdle": {
+			"frames": [
+				[0, 416, 32, 32],
+				[32, 416, 32, 32]
+			],
+			"speed": 10.0,
+			"loop": true
+		},
+		"SwimUp": {
+			"frames": [
+				[0, 448, 32, 32],
+				[32, 448, 32, 32],
+				[64, 448, 32, 32],
+				[96, 448, 32, 32],
+				[128, 448, 32, 32],
+				[160, 448, 32, 32]
+			],
+			"speed": 25.0,
+			"loop": true
+		},
+		"Climb": {
+			"frames": [
+				[0, 480, 32, 32],
+				[32, 480, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"FlagSlide": {
+			"frames": [[0, 512, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Grow": {
+			"frames": [
+				[0, 544, 32, 32],
+				[0, 0, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"FaceForward": {
+			"frames": [[0, 576, 32, 32]],
+			"speed": 1.0,
+			"loop": true
+		},
+		"Pose": {
+			"frames": [[0, 608, 32, 32]],
+			"speed": 1.0,
+			"loop": true
+		},
+		"Pipe": {
+			"frames": [[0, 640, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"PipeWalk": {
+			"frames": [
+				[0, 672, 32, 32],
+				[32, 672, 32, 32],
+				[64, 672, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"DieFreeze": {
+			"frames": [[0, 704, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Die": {
+			"frames": [
+				[0, 736, 32, 32],
+				[32, 736, 32, 32]
+			],
+			"speed": 10.0,
+			"loop": true
+		},
+		"StarJump": {
+			"frames": [[0, 768, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"StarFall": {
+			"frames": [[0, 800, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Attack": {
+			"frames": [[0, 832, 32, 32]],
+			"speed": 4.4,
+			"loop": false
+		},
+		"CrouchAttack": {
+			"frames": [[0, 864, 32, 32]],
+			"speed": 4.8,
+			"loop": false
+		},
+		"AirAttack": {
+			"frames": [[0, 896, 32, 32]],
+			"speed": 4.6,
+			"loop": false
+		},
+		"SwimAttack": {
+			"frames": [[0, 928, 32, 32]],
+			"speed": 4.2,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "Fire.png",
+			"rect": [
+				0.0,
+				0.0,
+				192.0,
+				960.0
+			]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "power_up": "sounds/power_up.wav",
+  "damage": "sounds/damage.wav",
+  "spring": "sounds/spring.wav",
+  "checkpoint": "sounds/checkpoint.wav",
+  "1_up": "sounds/1_up.wav",
+}
