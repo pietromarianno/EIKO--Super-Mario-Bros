@@ -1,5 +1,24 @@
 {
+	"properties": {
+		"star_offset_x": 0,
+		"star_offset_y": 0
+	},
 	"variations": {
-		"default": {"source": "Title1.png", "rect": [0, 0, 256, 128]}
+		"SMB1": {"source": "TitleSMB1.png"},
+		"SMBLL": {
+			"source": "TitleSMBLL.png",
+			"properties": {
+				"star_offset_x": 0,
+				"star_offset_y": -4
+			}
+		},
+		"SMBS": {"source": "TitleSMBS.png"},
+		"SMBANN": {
+			"source": "TitleSMBANN.png",
+			"properties": {
+				"star_offset_x": -88,
+				"star_offset_y": 4
+			}
+		}
 	}
 }

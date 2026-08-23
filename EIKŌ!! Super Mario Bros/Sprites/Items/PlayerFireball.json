@@ -1,12 +1,10 @@
 {
 	"animations": {
 		"default": {
-			"frames": [[0, 0, 8, 8]],
-			"speed": 1.0,
+			"frames": [[0, 0, 10, 9]],
+			"speed": 1,
 			"loop": false
 		}
 	},
-	"variations": {
-		"default": {"source": "Fireball.png"}
-	}
+	"variations": {"source": "Fireball.png"}
 }

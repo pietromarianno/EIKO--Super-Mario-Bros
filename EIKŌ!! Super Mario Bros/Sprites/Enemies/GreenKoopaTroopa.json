@@ -10,9 +10,7 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "KoopaTroopa.png",
-			"rect": [0, 0, 100, 48]
-		}
+		"source": "KoopaTroopa.png",
+		"rect": [0, 0, 48, 32]
 	}
 }

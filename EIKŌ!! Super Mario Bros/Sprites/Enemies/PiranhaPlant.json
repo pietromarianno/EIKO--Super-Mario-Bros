@@ -2,149 +2,21 @@
 	"animations": {
 		"default": {
 			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					24.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					24.0
-				]
+				[0, 0, 16, 24],
+				[16, 0, 16, 24]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},
 	"variations": {
-		"default": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					0.0,
-					0.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					0.0,
-					0.0,
-					32.0,
-					24.0
-				]
-			}
+		"SMB1": {
+			"source": "PiranhaPlant.png",
+			"rect": [0, 0, 32, 24]
 		},
-		"Underground": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					32.0,
-					0.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					32.0,
-					0.0,
-					32.0,
-					24.0
-				]
-			}
-		},
-		"Castle": {
-			"link": "Underground"
-		},
-		"GhostHouse": {
-			"link": "Underground"
-		},
-		"Snow": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					0.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					0.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			}
-		},
-		"Space": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					32.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					32.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			}
-		},
-		"Volcano": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					64.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					64.0,
-					24.0,
-					32.0,
-					24.0
-				]
-			}
-		},
-		"Bonus": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [
-					0.0,
-					48.0,
-					32.0,
-					24.0
-				]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [
-					0.0,
-					48.0,
-					32.0,
-					24.0
-				]
-			}
+		"SMBANN": {
+			"source": "DiscoPiranha.png",
+			"rect": [0, 0, 32, 24]
 		}
 	}
 }
